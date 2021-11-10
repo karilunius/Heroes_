@@ -42,15 +42,18 @@ span#title {
 button {
     position:relative;
     left: 115px;
-    bottom:-250px;
+    bottom:-150px;
     z-index: relative;
 }
 
 span #textogrupo {
     position:relative;
+    left:50px;
     top:100px;
-    margin: 0px;
-    padding:15px;
+    border: 1px solid black;
+    width: 200px;
+    height:150px;
+    text-align: justify;
 
 
 }

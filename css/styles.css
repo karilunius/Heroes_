@@ -1,34 +1,63 @@
 #nav1 {
     background-color: turquoise;
     color: black;
-    text-decoration: none;
 }
+
 h1 {
     background-color: blue;
 }
 
-.bloque1 {
-    position: relative;
-}
-#title {
-    position: absolute;
-    text-transform: uppercase;
-    font-size:x-large;
-    font-weight: bolder;
-    top: 200px;
-    left: 90px;
-}
-#fbatman {
+
+#bloque1 {
+    display:grid;
     position:absolute;
-}
-#batman {
-    position:absolute;
-}
-#textogrupo {
-    position: absolute;
-    }
-button {
-    position: absolute;
-    bottom: 1px;
 }
 
+
+#fbatman{
+    position:absolute;
+    padding-left: 5px;
+}
+
+#batman {
+    position:relative;
+    left:90px;
+    top: -50px;
+}
+
+#fglobal {
+    position:absolute;
+    padding-top: 191px;
+}
+
+span#title {
+    font-weight: bolder;
+    font-size: x-large;
+    position:relative;
+    left:110px;
+    bottom:-100px;
+
+}
+
+button {
+    position:relative;
+    left: 115px;
+    bottom:-250px;
+    z-index: relative;
+}
+
+span #textogrupo {
+    position:relative;
+    top:100px;
+    margin: 0px;
+    padding:15px;
+
+
+}
+
+footer {
+    color:cornsilk;
+    background-color: darkblue;
+    text-align: center;
+    font-weight: bold;
+}

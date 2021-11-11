@@ -3,6 +3,14 @@ html body {
     border:0px;
 }
 
+/*body {
+ min-height: 100vh;
+}*/
+
+/*main {
+    min-height:calc(100vh - 92.22);
+}*/
+
 #nav1 {
     background-color: turquoise;
     color: black;
@@ -96,10 +104,10 @@ span #textogrupo1 {
 footer {
     color:cornsilk;
     background-color: rgb(27, 27, 87);
-    height: auto;
-    width:auto;
+    height: 20px;
     position:relative;
-    bottom: -571px;
+    bottom: -574px;
+    width:auto;
     text-align: center;
     font-weight: bold;
 }

@@ -90,9 +90,10 @@ button {
 }
 
 span #textogrupo1 {
+    font-size: 13px;
     position:relative;
     left:50px;
-    top:140px;
+    top:120px;
     border: 0px solid black;
     width: 200px;
     height:150px;
@@ -106,8 +107,8 @@ footer {
     background-color: rgb(27, 27, 87);
     height: 20px;
     position:relative;
-    bottom: -574px;
+    bottom: -567px;
     width:auto;
     text-align: center;
-    font-weight: bold;
+    font-weight:normal;
 }

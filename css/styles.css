@@ -89,9 +89,22 @@ span #textogrupo1 {
     background-color: turquoise;
     color: black;
     font-size: small;
-    margin: 0em;
+    margin: 0px;
     padding-left: 10px;
-    position:sticky;
+    width:100%;
+    /*position: sticky;
+    top:0px;*/
+}
+
+footer {
+    color:cornsilk;
+    background-color: rgb(27, 27, 87);
+    height: 20px;
+    width: 100%;
+    position:absolute;
+    bottom: -100px;
+    text-align: center;
+    font-weight:normal;
 }
 
 h1 {
@@ -99,20 +112,17 @@ h1 {
     text-transform: uppercase;
     background-color: rgb(27, 27, 87);
     font-size:50px;
-    height: auto;
-    width:  auto;
-    margin:0em;
+    margin:0px;
     padding-left: 10px;
-    position:sticky;
+    /*position: sticky;
+    top:0px;*/
 }
 
-footer {
-    color:cornsilk;
-    background-color: rgb(27, 27, 87);
-    height: 20px;
-    position:relative;
-    bottom: -800px;
-    width:auto;
-    text-align: center;
-    font-weight:normal;
+.header {
+    background-color: aqua;
+    position: sticky;
+    top: 0px;
+    z-index:10;
 }
+
+

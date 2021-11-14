@@ -4,17 +4,14 @@
     border:0px;
 }
 
-#nav1 {
+.nav1 {
+    position:sticky;
     background-color: turquoise;
     color: black;
     font-size: small;
     margin: 0px;
     padding-left: 10px;
     height:20px;
-    width:auto;
-    position: sticky;
-    top:0px;
-    z-index:20px;
 }
 
 header {
@@ -25,9 +22,8 @@ header {
     margin:0px;
     padding-left: 10px;
     position:sticky;
-    top:0px;
-    z-index:20px;
     box-shadow: 0px 0px 5px 0px black;
+    z-index:20px;
 }
 
 footer {
@@ -43,12 +39,17 @@ footer {
     z-index:20px;
 }
 
-div #padre1 {
+main {
     display:flex;
-    position:relative;
 }
 
-#fbatman{
+article.padre1 {
+    display:flexbox;
+    position:relative;
+    top:-100px;
+}
+
+.fbatman{
     position:absolute;
     width: 291px;
     top:150px;
@@ -56,7 +57,7 @@ div #padre1 {
     z-index:10;
 }
 
-#fglobal {
+.fglobal {
     position:absolute;
     border-radius: 40px;
     width: 300px;
@@ -64,7 +65,7 @@ div #padre1 {
     left:150px;
 }
 
-#batman {
+.batman {
     position:absolute;
     left:240px;
     top: 270px;
@@ -72,7 +73,7 @@ div #padre1 {
     z-index:12;
 }
 
-span#title {
+span.title {
     font-weight: bolder;
     text-transform: uppercase;
     font-size: x-large;
@@ -95,7 +96,7 @@ button {
     z-index:12;
 }
 
-span #textogrupo1 {
+article div#textogrupo1 {
     font-size: 13px;
     position:absolute;
     left:200px;
@@ -106,7 +107,7 @@ span #textogrupo1 {
     text-align: justify;
 }
 
-#heart {
+.heart {
     position:absolute;
     left:200px;
     top:180px;

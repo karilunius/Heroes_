@@ -40,6 +40,7 @@ footer {
     text-align: center;
     font-weight:normal;
     font-size: small;
+    z-index:20px;
 }
 
 div #padre1 {

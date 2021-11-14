@@ -73,13 +73,14 @@ article.padre1 {
     z-index:12;
 }
 
-span.title {
+div.title {
     font-weight: bolder;
     text-transform: uppercase;
     font-size: x-large;
-    position:absolute;
-    left:245px;
-    bottom:235px;
+    position:relative;
+    left:250px;
+    bottom:-400px;
+    z-index: 12;
 
 }
 

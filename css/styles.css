@@ -1,99 +1,6 @@
-html body {
-    margin:0px;
+* { box-sizing:content-box;
+    margin: 0px;
     border:0px;
-}
-
-/*body {
- min-height: 100vh;
-}*/
-
-/*main {
-    min-height:calc(100vh - 92.22);
-}*/
-
-
-
-
-#bloque1 {
-    display:grid;
-    position:absolute;
-    top:200px;
-    left:200px;
-}
-
-/*.fas fa-heart {
-    z-index:auto;
-}*/
-
-#fbatman{
-    position:absolute;
-    padding-left: 5px;
-
-}
-
-#batman {
-    position:relative;
-    left:95px;
-    top: 130px;
-    border-radius: 60px;
-    z-index:2;
-}
-
-#fglobal {
-    position:absolute;
-    padding-top: 191px;
-    border-radius: 40px;
-
-}
-
-span#title {
-    font-weight: bolder;
-    text-transform: uppercase;
-    font-size: x-large;
-    position:relative;
-    left:100px;
-    bottom:-137px;
-
-}
-
-button {
-    background-color: midnightblue;
-    border-radius: 10px;
-    position:relative;
-    display:inline-block;
-    left: 115px;
-    bottom:-115px;
-    text-decoration: none;
-    color:mintcream;
-}
-
-span #textogrupo1 {
-    font-size: 13px;
-    position:relative;
-    left:50px;
-    top:120px;
-    border: 0px solid black;
-    width: 200px;
-    height:150px;
-    text-align: justify;
-}
-
-#heart {
-    position:relative;
-    left:35px;
-    top: 30px;
-    z-index:1;
-}
-
-footer {
-    color:cornsilk;
-    background-color: rgb(27, 27, 87);
-    height: 20px;
-    width: 100%;
-    position:absolute;
-    bottom: -100px;
-    text-align: center;
-    font-weight:normal;
 }
 
 #nav1 {
@@ -102,29 +9,35 @@ footer {
     font-size: small;
     margin: 0px;
     padding-left: 10px;
+    height:20px;
     width:100%;
     position: sticky;
     top:0px;
     z-index:10px;
 }
 
-h1 {
+header h1 {
     color:cornsilk;
     text-transform: uppercase;
     background-color: rgb(27, 27, 87);
     font-size:50px;
     margin:0px;
     padding-left: 10px;
-    position: sticky;
+    position:sticky;
     top:0px;
     z-index:10px;
 }
 
-/*.headerr {
-    background-color: aqua;
-    position: sticky;
-    top: 0px;
-    z-index:10;
-}*/
+footer {
+    color:cornsilk;
+    background-color: rgb(27, 27, 87);
+    height: 20px;
+    width: 100%;
+    position:fixed;
+    bottom:0px;
+    text-align: center;
+    font-weight:normal;
+    font-size: small;
+}
 
 

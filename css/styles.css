@@ -1,5 +1,6 @@
 * { box-sizing:content-box;
-    margin: 0px;
+    margin:0px;
+    padding:0px;
     border:0px;
 }
 
@@ -10,10 +11,10 @@
     margin: 0px;
     padding-left: 10px;
     height:20px;
-    width:100%;
+    width:auto;
     position: sticky;
     top:0px;
-    z-index:10px;
+    z-index:20px;
 }
 
 header h1 {
@@ -25,7 +26,7 @@ header h1 {
     padding-left: 10px;
     position:sticky;
     top:0px;
-    z-index:10px;
+    z-index:20px;
 }
 
 footer {
@@ -39,5 +40,76 @@ footer {
     font-weight:normal;
     font-size: small;
 }
+
+div #padre1 {
+    display:flex;
+    position:relative;
+}
+
+#fbatman{
+    position:absolute;
+    width: 291px;
+    top:150px;
+    left:156px;
+    z-index:10;
+}
+
+#fglobal {
+    position:absolute;
+    border-radius: 40px;
+    width: 300px;
+    top:300px;
+    left:150px;
+}
+
+#batman {
+    position:absolute;
+    left:240px;
+    top: 270px;
+    border-radius: 60px;
+    z-index:12;
+}
+
+span#title {
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: x-large;
+    position:absolute;
+    left:245px;
+    bottom:235px;
+
+}
+
+button {
+    background-color: rgb(124, 124, 167);
+    height:20px;
+    width:70px;
+    border-radius:5px;
+    position:absolute;
+    left: 260px;
+    top:570px;
+    text-decoration: none;
+    color:mintcream;
+    z-index:12;
+}
+
+span #textogrupo1 {
+    font-size: 13px;
+    position:absolute;
+    left:200px;
+    top:450px;
+    border: 0px solid black;
+    width: 200px;
+    height:150px;
+    text-align: justify;
+}
+
+#heart {
+    position:absolute;
+    left:200px;
+    top:180px;
+    z-index:12;
+}
+
 
 

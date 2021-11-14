@@ -17,11 +17,11 @@
     z-index:20px;
 }
 
-header h1 {
+header {
     color:cornsilk;
     text-transform: uppercase;
     background-color: rgb(27, 27, 87);
-    font-size:50px;
+    font-size:30px;
     margin:0px;
     padding-left: 10px;
     position:sticky;
